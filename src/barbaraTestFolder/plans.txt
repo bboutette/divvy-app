@@ -1,0 +1,17 @@
+Day 2
+
+1. take out rows and columns and replace w/ breaks
+2. take out styling.
+3. find corresponding values and change.
+
+Day 3
+
+1. Try to fix button to render on submit.
+2. Connect form to styles and everything working in react
+3. 
+
+Day 4
+
+Connect goal meeting/not meeting to images rendered.
+Save a star for each day goal is met to the user’s profile.
+Dummy page comparing user to friends.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Goal</title>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="goalJQ.js"></script>
+      <script>
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+      </script>
+      
+  </head>
+
+    <input name='amount' size='6' placeholder='0'>Goal Price
+    <br>
+    <form  class='sumtable'>
+    <input name='amount' size='6' placeholder='0'>Starting Cash
+    <br>
+    <p><input type="text" name="datepicker" id="datepicker"> Date</p>
+
+    <p><button class="submit">submit</button></p
+    <td>&nbsp;</td>
+    <br>
+    <p>
+    <font face='Verdana' size='2'> New Total Needed: $
+    </font><br>
+    <font face='Verdana' size='2'><span class='balance'>0</span></font>
+    <br>
+    </form>
+
+    <p class="results">
+
+    </p>
+
+    <p class="finalResults">
+
+    </p>
+
+  </body>
+
+</html>

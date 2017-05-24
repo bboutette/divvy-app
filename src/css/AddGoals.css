@@ -1,0 +1,111 @@
+p.howMuch {
+  font-size: 2.3em;
+  font-weight: bolder;
+  color: rgb(36,112,193);
+}
+
+.currencyInput {
+  pointer-events: all;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  font-size: 3em;
+  font-weight: 600;
+  color: rgb(133,133,133);
+  border-bottom: 4px solid rgb(36,112,193) !important;
+  border: none;
+  margin-bottom: 35px;
+}
+
+.currencyInput:active{
+  border-bottom: 4px solid rgb(255,145,150);
+}
+
+.dateInput {
+  pointer-events: all;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  font-size: 3em;
+  font-weight: 600;
+  color: rgb(133,133,133);
+  border-bottom: 4px solid rgb(36,112,193) !important;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.submitGoal {
+  pointer-events: auto;
+  outline: none;
+  font-size: 1.3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  background-color: rgb(255,255,255);
+  border: 3px solid rgb(36,112,193);
+  color: rgb(36,112,193);
+  width: 200px;
+  height: 50px;
+  box-shadow: 3px 3px rgba(0,0,0,.3);
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+.submitGoal:hover {
+  background-color: rgb(255,255,255);
+  border: 3px solid rgb(255,145,150);
+  color: rgb(255,145,150);
+  box-shadow: 6px 6px rgba(0,0,0,.2);
+}
+
+.submitGoal:active {
+  box-shadow: 1px 1px rgba(0,0,0,.2);
+
+}
+
+.aGContent {
+  margin-top: 5%;
+}
+
+.formBox {
+  pointer-events: none;
+  width: 400px;
+  margin: 0 auto;
+  border: 3px solid rgb(36,112,193);
+  padding: 50px;
+  box-shadow: 5px 5px rgba(0,0,0,.3);
+  box-shadow: 3px 3px rgba(0,0,0,.3);
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+.formBox:hover {
+  box-shadow: 9px 9px rgba(0,0,0,.2);
+  border: 3px solid rgb(255,145,150);
+}
+
+.formContent{
+  margin: 0 auto;
+}
+
+.perDay {
+  margin-top: 25px;
+  font-weight: 600;
+  font-family: 'Avenir', sans-serif;
+  font-size: 2em;
+  letter-spacing: .05em;
+  color: rgb(36,112,193);
+}
+
+.renderPerDay {
+  font-family: 'Avenir', sans-serif;
+  font-size: 2em;
+  font-family: 500;
+  color: rgb(255,145,150);
+}

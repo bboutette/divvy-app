@@ -1,0 +1,25 @@
+ .progress-bar-container {
+   border-style: solid;
+   border-width: .1em;
+   width: 30vh;
+   height: 3vh;
+   text-align: center;
+   vertical-align: middle !important;
+ }
+
+ .progress-bar-inner {
+   font-size: 1em;
+   font-weight: bold;
+   height: 100%;
+   vertical-align: middle !important;
+ }
+
+ .default {
+   color: white;
+   border: 3px solid rgb(152,195,147);
+   background-color: rgb(240,240,240);
+ }
+
+ .default .progress-bar-inner {
+   background: rgb(152,195,147);
+ }

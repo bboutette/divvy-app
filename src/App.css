@@ -1,0 +1,209 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: rgb(255,255,255);
+    font-family: 'Avenir', sans-serif !important;
+}
+
+div.container.navContainer {
+  margin-bottom: 0;
+}
+
+ul li a.link {
+  color: rgb(36,112,193);
+  text-transform: uppercase;
+  text-align: center;
+  border: 1.5px solid rgb(36,112,193);
+  padding: 5px 5px 5px 9px;
+  margin: 15px;
+  font-weight: lighter;
+  letter-spacing: .5em;
+  font-size: 1em;
+  box-shadow: 3px 3px rgba(0,0,0,.3);
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li a.link:hover {
+  text-decoration: none;
+  color: rgb(255,145,150);
+  border: 1px solid rgb(255,145,150);
+  box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+ul li a.link.active:active {
+  text-decoration: none;
+  color: rgb(255,145,150);
+  border: 1px solid rgb(255,145,150);
+  box-shadow: 1px 1px rgba(0,0,0,.3);
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.navbar ul{
+  float: right;
+  margin: 15px;
+}
+
+navbar-default, a.navbar-brand {
+  height: 100%;
+  background-color: rgb(255,255,255) !important;
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: .2em;
+  color: rgb(255,145,150) !important;
+  border: 2px solid rgb(255,145,150);
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+navbar-default, a.navbar-brand:hover {
+  background-color: rgb(255,255,255) !important;
+  border-color: rgb(36,112,193);
+  color: rgb(36,112,193) !important;
+  box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+navbar-default, a.navbar-brand:active {
+  box-shadow: 1px 1px rgba(0,0,0,.2);
+}
+
+.navbar {
+  background-color: rgb(255,255,255) !important;
+  border-bottom: 1px solid rgb(0,98,148);
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  margin-bottom: 0 !important;
+}
+
+.navbar:hover {
+  box-shadow: 4px 4px rgba(0,0,0,.3);
+}
+
+
+nav.tabs.navbar.navbar-default.navbar-fixed-top>ul>li>a {
+margin-left: 15px;
+font-family: 'Avenir', sans-serif;
+background-color: rgb(255,255,255) !important;
+border: 2px solid rgb(36,112,193) !important;
+color: rgb(36,112,193);
+border-radius: 0 !important;
+text-align: center;
+text-transform: uppercase;
+padding: 5px 5px 5px 9px;
+font-weight: 600;
+letter-spacing: .5em;
+font-size: 1em;
+box-shadow: 3px 3px rgba(0,0,0,.3);
+-o-transition:.2s;
+-ms-transition:.2s;
+-moz-transition:.2s;
+-webkit-transition:.2s;
+transition:.2s;
+}
+
+nav.tabs.navbar.navbar-default.navbar-fixed-top>ul>li>a:hover {
+  cursor: pointer;
+  color: rgb(255,145,150);
+  border: 2px solid rgb(255,145,150) !important;
+  box-shadow: 5px 5px rgba(0,0,0,.2);
+}
+
+nav.tabs.navbar.navbar-default.navbar-fixed-top>ul>li>a:active {
+  cursor: pointer;
+  border: 2px solid rgb(255,145,150) !important;
+  box-shadow: 1px 1px rgba(0,0,0,.2);
+}
+
+.footerRow {
+  margin-top: 50px;
+  padding: 25px 0;
+  background-color: rgb(36,112, 193);
+}
+
+h4 {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  font-weight: 600;
+  color: rgb(255,255,255);
+}
+
+div.col-md-2>ul.nav.nav-pills.nav-stacked.footerText>li>p {
+  color: rgb(255,255,255) !important;
+}
+
+div.col-md-2 ul.nav.nav-pills.nav-stacked.footerText>li>a {
+  font-family: 'Avenir', sans-serif;
+  color: rgb(255,255,255);
+}
+
+.learnText {
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(36,112,193);
+  line-height: 2em;
+}
+
+.learnOne {
+  color: rgb(36,112,193);
+  letter-spacing: .1em;
+  font-weight: 600;
+  font-size: 5em;
+  text-shadow: 3px 3px rgba(0,0,0,.2);
+}
+
+.learnBoxOne {
+  margin-top: 15px;
+  padding: 25px 35px;
+  border: 1px solid rgb(36,112,193);
+  box-shadow: 5px 5px rgba(0,0,0,.3);
+}
+
+.learnSectionOne{
+  margin-top: 5%;
+  padding: 15vh 15%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.learnSectionTwo{
+  background-color: rgb(255,145,150);
+  padding: 10% 15% 0 15%;
+  width: 100vw;
+  height: 110vh;
+}
+
+.learnTextTwo {
+  font-family: 'Avenir', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 2em;
+  color: rgb(255,255,255);
+}
+
+.learnBoxTwo {
+  padding-bottom: 1%;
+}
